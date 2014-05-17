@@ -1,5 +1,6 @@
+# auto: true
 # Site settings
-title: don
+title: Don
 email: kexiaokai@gmail.com
 description: "xiaokai's blog"
 baseurl: ""
@@ -7,4 +8,4 @@ url: ""
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: /:categories/:title
