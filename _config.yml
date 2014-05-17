@@ -1,0 +1,10 @@
+# Site settings
+title: don
+email: kexiaokai@gmail.com
+description: "xiaokai's blog"
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+permalink: pretty
