@@ -1,6 +1,7 @@
 ---
 layout: default
 title: blog
+categories: blog
 permalink: /blog/
 ---
 

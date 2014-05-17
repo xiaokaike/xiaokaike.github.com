@@ -1,6 +1,7 @@
 ---
 layout: default
 title: project
+categories: project
 permalink: /project/
 ---
 
