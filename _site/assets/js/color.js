@@ -34,8 +34,11 @@ var app = {
 
 
 		coId.style.backgroundColor = co.hex;
-		coTit.innerText = co.name;
-		coEn.innerText = co.en;
+
+		setTimeout(function(){
+			coTit.innerText = co.name;
+			coEn.innerText = co.en;
+		},3000)
 	},
 	
 	

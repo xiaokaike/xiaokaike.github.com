@@ -30,6 +30,9 @@ body{height: 100%}
 .colors{
 	height: 100%;
 	background-color: red;
+	background-image: url(../img/texture.png);
+	background-repeat: repeat;
+	-webkit-transition: background-color 1s ease-in;
 }
 
 .colors article{ position: relative;}
