@@ -1,0 +1,11 @@
+- title: Blog
+  url: /blog/
+  cate: blog
+
+- title: Project
+  url: /project/
+  cate: project
+
+- title: About
+  url: /about/
+  cate: about

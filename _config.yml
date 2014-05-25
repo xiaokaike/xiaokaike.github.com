@@ -1,18 +1,28 @@
-# auto: true
+#
+# More configuration examples at:
+# http://jekyllrb.com/docs/configuration/
+#
+
+
+
+
+
 # Site settings
-title: Don
+title: Don's Blog
 email: kexiaokai@gmail.com
 description: "xiaokai's blog"
 baseurl: ""
 url: ""
 
 # Build settings
+future: false
 markdown: kramdown
-permalink: /:categories/:title.html
+permalink: /:categories/:title/
 
 
-# 
-# jekyll serve settings
-# 
-
+# jekyll serve settings 
+source: _app
 port: 4836
+
+
+# auto: true
