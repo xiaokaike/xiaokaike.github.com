@@ -7,16 +7,47 @@ var coArr=[{"en":"LightPink","name":"浅粉红","hex":"#FFB6C1",},{"en":"Pink","
 
 var app = {
 	init: function(){
-		
+		var rand =  this.getRandomNum(0,136),
+			co = coArr[rand],
+			coId = document.getElementById('color'),
+			coTit = document.getElementById('colorTit'),
+			coEn = document.getElementById('colorEn');
+
+
+		coId.style.backgroundColor = co.hex;
+		coTit.innerText = co.name;
+		coEn.innerText = co.en;
+
+		coId.addEventListener("click", this.changeColor, false);
+	},
+	getRandomNum: function(Min,Max) {
+		var Range = Max - Min,
+			Rand = Math.random();
+		return (Min + Math.round(Rand * Range));
+	},
+	changeColor: function(e){
+		var rand =  app.getRandomNum(0,136),
+			co = coArr[rand],
+			coId = document.getElementById('color'),
+			coTit = document.getElementById('colorTit'),
+			coEn = document.getElementById('colorEn');
+
+
+		coId.style.backgroundColor = co.hex;
+		coTit.innerText = co.name;
+		coEn.innerText = co.en;
 	},
 	
 	
 
 };
 
+window.onload = function(){
+
+	app.init();
+};
 
 (function(){
 	
-	console.log(';');
 
 })();
