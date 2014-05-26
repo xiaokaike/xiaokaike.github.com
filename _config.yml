@@ -21,7 +21,7 @@ permalink: /:categories/:title/
 
 
 # jekyll serve settings 
-source: _app
+source: ./_app
 port: 4000
 
 
