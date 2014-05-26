@@ -5,8 +5,6 @@
 
 
 
-
-
 # Site settings
 title: Don's Blog
 email: kexiaokai@gmail.com
@@ -22,6 +20,7 @@ permalink: /:categories/:title/
 
 # jekyll serve settings 
 source: ./_app
+destination:  ./_site
 port: 4000
 
 
