@@ -2,12 +2,40 @@
 # More configuration examples at:
 # http://jekyllrb.com/docs/configuration/
 #
+# Jekyll basic configurations
+#
 
-# jekyll serve settings 
-source: ./_app
-destination: ./_site
-permalink: /:categories/:title/
+source:       ./_app
+destination:  ./_site
+timezone:     Asia/Hong_Kong
+permalink:    /:categories/:title/
+markdown:     redcarpet
 highlighter:  pygments
+
+#
+# Jekyll serve settings
+#
+
+port:         4321
+
+#
+# Jekyll build settings
+#
+
+future:       false
+
+#
+# Additional Markdown settings
+#
+
+redcarpet:
+  extensions:
+    - footnotes
+    - no_intra_emphasis
+    - smart
+    - space_after_headers
+    - superscript
+    - tables
 
 
 # Site settings
@@ -16,12 +44,3 @@ email: kexiaokai@gmail.com
 description: "xiaokai's blog"
 baseurl: ""
 url: ""
-
-# Build settings
-future: false
-markdown: kramdown
-
-
-
-
-# auto: true
