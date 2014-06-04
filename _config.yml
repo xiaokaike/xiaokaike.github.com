@@ -1,11 +1,26 @@
-auto: true
+#
+# More configuration examples at:
+# http://jekyllrb.com/docs/configuration/
+#
 
-markdown: rdiscount
-pygments: true
-paginate: 8
-permalink: /:title
 
-title: xiaokaike.github.io
-url: http://xiaokaike.github.io
-feed: /atom.xml
-author_info: <a href="http://xiaokaike.github.io/">xiaokaike</a>
+
+# Site settings
+title: Don's Blog
+email: kexiaokai@gmail.com
+description: "xiaokai's blog"
+baseurl: ""
+url: ""
+
+# Build settings
+future: false
+markdown: kramdown
+permalink: /:categories/:title/
+
+
+# jekyll serve settings 
+source: ./_app
+destination:  ./_site
+
+
+# auto: true

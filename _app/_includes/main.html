@@ -1,0 +1,11 @@
+<div class="home-main">
+    <h1>Don</h1>
+
+    <nav class="nav">
+      <div class="trigger">
+        {% for item in site.data.nav %}
+          <a class="link" href="{{ item.url }}">{{ item.title }}</a>
+        {% endfor %}
+      </div>
+    </nav>
+</div>
