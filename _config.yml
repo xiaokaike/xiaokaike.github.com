@@ -3,8 +3,10 @@
 # http://jekyllrb.com/docs/configuration/
 #
 
-
-
+# jekyll serve settings 
+source: ./_app
+destination: ./_site
+permalink: /:categories/:title/
 
 
 # Site settings
@@ -17,12 +19,8 @@ url: ""
 # Build settings
 future: false
 markdown: kramdown
-permalink: /:categories/:title/
 
 
-# jekyll serve settings 
-source: _app
-port: 4836
 
 
 # auto: true
