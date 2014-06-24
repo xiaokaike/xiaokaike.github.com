@@ -5,7 +5,7 @@
 # Jekyll basic configurations
 #
 
-source:       ./_app
+source:       .
 destination:  ./_site
 timezone:     Asia/Hong_Kong
 permalink:    /:categories/:title/
@@ -16,7 +16,7 @@ highlighter:  pygments
 # Jekyll serve settings
 #
 
-port:         4321
+# port:         4321
 
 #
 # Jekyll build settings
