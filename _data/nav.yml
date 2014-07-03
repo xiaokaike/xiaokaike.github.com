@@ -2,9 +2,9 @@
   url: /blog/
   cate: blog
 
-- title: Project
-  url: /project/
-  cate: project
+# - title: Project
+#   url: /project/
+#   cate: project
 
 - title: About
   url: /about/
