@@ -6,8 +6,8 @@
 /* common */
 /* ----------------------------------------------------------*/
 
-::-moz-selection { color: #fff;  background: rgba(170,13,67,.1); }
-::selection      { color: #fff;  background: rgba(170,13,67,.1); } 
+/*::-moz-selection { color: #fff;  background: rgba(170,13,67,.1); }
+::selection      { color: #fff;  background: rgba(170,13,67,.1); } */
 
 body{
   /*border-top: 5px solid #38342b;*/
@@ -91,7 +91,7 @@ a, a:link, a:visited {
 .site-footer .wrap{
   margin-top: 30px;
   font-size: 14px;
-  border-top: 1px solid rgba(0,0,0,0.2);
+  /*border-top: 1px solid rgba(0,0,0,0.2);*/
   text-align: right;
 }
 
