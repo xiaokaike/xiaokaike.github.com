@@ -16,7 +16,7 @@ body{
   color: #666;
 }
 a, a:link, a:visited {
-  color: #800;
+  color: #d73b25;
   text-decoration: none;
   /*border-bottom: 1px dotted #800;*/
 }
@@ -71,14 +71,15 @@ a, a:link, a:visited {
 /* Site header */
 
 .site-header {
-  padding: 200px 0;
+  padding: 30px 0;
   text-align: center;
+  margin: 0;
 }
 
 .site-title,
 .site-title:hover,
 .site-title:visited {
-  color: #fff;
+  color: #000;
   font-size: 40px;
   position: relative;
   z-index: 1;
@@ -88,7 +89,9 @@ a, a:link, a:visited {
 /* Site footer */
 
 .site-footer .wrap{
-  border-top: 1px solid #e8e8e8;
+  margin-top: 30px;
+  font-size: 14px;
+  border-top: 1px solid rgba(0,0,0,0.2);
   text-align: right;
 }
 
@@ -97,7 +100,6 @@ a, a:link, a:visited {
 /* ----------------------------------------------------------*/
 
 .page-content {
-  padding: 30px 0;
 }
 
 .posts-list { 
@@ -106,31 +108,70 @@ a, a:link, a:visited {
 }
 
 .posts-list li { 
-  padding: 40px 0;
-  border-bottom: 1px solid rgba(255,255,255,0.2);
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
   font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
 }
 
 .posts-list .post-link {
-  font-size: 28px;
+  font-size: 18px;
   letter-spacing: -1px;
   line-height: 1.1;
   margin-bottom: 4px;
   text-decoration: none;
   display: block;
-  color: #fff;
+  color: rgb(55, 62, 75);
 }
 
 .posts-list .post-date {
   font-size: 14px;
-  color: rgba(255,255,255,0.97);
+  color: #aaa;
   margin: 0;
   margin-bottom: 4px;
   font-family: "Palatino Linotype", "URW Palladio L", "palladio l", palatino, "book antiqua", times, serif;
    font-style: italic;
 }
 
-
+/* page */
+/* --------------------------------------------------------- */
+.pager {
+  padding-left: 0;
+  margin: 20px 0;
+  text-align: center;
+  list-style: none;
+}
+.pager li {
+  display: inline;
+}
+.pager li > a,
+.pager li > span {
+  display: inline-block;
+  padding: 5px 14px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+}
+.pager li > a:hover,
+.pager li > a:focus {
+  text-decoration: none;
+  background-color: #eee;
+}
+.pager .next > a,
+.pager .next > span {
+  float: right;
+}
+.pager .previous > a,
+.pager .previous > span {
+  float: left;
+}
+.pager .disabled > a,
+.pager .disabled > a:hover,
+.pager .disabled > a:focus,
+.pager .disabled > span {
+  color: #999;
+  cursor: not-allowed;
+  background-color: #fff;
+}
 
 
 /* media queries */
