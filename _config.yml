@@ -16,7 +16,7 @@ paginate: 10
 # Jekyll serve settings
 #
 
-# port:         4321
+port:         4000
 
 #
 # Jekyll build settings
