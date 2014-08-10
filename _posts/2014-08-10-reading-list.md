@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Reading list"
-date:   2014-08-10 23:08:00
+date:   2014-08-10 00:00:00
 published: true
 categories: blog
 tags: [ time ]
