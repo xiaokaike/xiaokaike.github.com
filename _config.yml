@@ -24,21 +24,9 @@ port:         4000
 
 future:       false
 
-#
-# Additional Markdown settings
-#
-
-redcarpet:
-  extensions:
-    - footnotes
-    - no_intra_emphasis
-    - smart
-    - space_after_headers
-    - superscript
-    - tables
-
 
 # Site settings
+name: "d. j. graham"
 title: xeme
 email: kexiaokai@gmail.com
 description: "xiaokai"
