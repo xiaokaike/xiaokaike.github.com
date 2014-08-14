@@ -9,7 +9,7 @@ source:       .
 destination:  ./_site
 timezone:     Asia/Hong_Kong
 permalink:    /:title/
-markdown:     redcarpet
+markdown:     rdiscount
 # highlighter:  pygments
 pygments: true
 paginate: 10
@@ -27,7 +27,7 @@ future:       false
 
 
 # Site settings
-name: ""
+name: "xeme"
 title: xeme
 email: kexiaokai@gmail.com
 description: "xiaokai"
