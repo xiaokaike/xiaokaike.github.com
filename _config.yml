@@ -10,7 +10,8 @@ destination:  ./_site
 timezone:     Asia/Hong_Kong
 permalink:    /:title/
 markdown:     redcarpet
-highlighter:  pygments
+# highlighter:  pygments
+pygments: true
 paginate: 10
 #
 # Jekyll serve settings
@@ -26,7 +27,7 @@ future:       false
 
 
 # Site settings
-name: "d. j. graham"
+name: ""
 title: xeme
 email: kexiaokai@gmail.com
 description: "xiaokai"
