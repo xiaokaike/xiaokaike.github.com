@@ -1,15 +1,15 @@
 
 
 (function(){
-	window.onscroll = function(){ 
-	    var t = document.documentElement.scrollTop || document.body.scrollTop;  
-	    var siteBg = document.getElementById('siteBg'); 
-	    if( t >= 100 ) { 
-	        addClass(siteBg, 'blur');
-	    } else { 
-	        removeClass(siteBg, 'blur');
-	    } 
-	} 
+	// window.onscroll = function(){ 
+	//     var t = document.documentElement.scrollTop || document.body.scrollTop;  
+	//     var siteBg = document.getElementById('siteBg'); 
+	//     if( t >= 100 ) { 
+	//         addClass(siteBg, 'blur');
+	//     } else { 
+	//         removeClass(siteBg, 'blur');
+	//     } 
+	// } 
 
 })();
 
