@@ -9,9 +9,9 @@ source:       .
 destination:  ./_site
 timezone:     Asia/Hong_Kong
 permalink:    /:title/
-markdown:     rdiscount
-# highlighter:  pygments
-pygments: true
+# markdown:     rdiscount
+markdown:     redcarpet
+highlighter:  pygments
 paginate: 10
 #
 # Jekyll serve settings
