@@ -109,3 +109,9 @@ tags: [ MAC ]
 
 #### [smcFanControl](http://smcfancontrol.en.softonic.com/mac)
 > 好用的风扇控制软件
+
+#### [adobe]()
+> adobe 系列软件
+
+#### [FileZille]()
+> ftp 软件
