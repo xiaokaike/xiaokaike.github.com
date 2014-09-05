@@ -10,6 +10,7 @@ tags: [ JS ]
 >Quick test for real understanding of JavaScript core beyond closures and scopes. Here five small scripts. Try to answer what will be alerted in each case without running them in the console. Then you could create a test file and easily check your answers. Ready?
 
 from[Sydney](http://dmitry.baranovskiy.com/post/91403200)
+and [汤姆大叔](http://www.cnblogs.com/TomXu/archive/2012/02/10/2342098.html)
 
 ```js
 if (!("a" in window)) {
