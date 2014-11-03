@@ -115,3 +115,6 @@ tags: [ MAC ]
 
 #### [FileZille]()
 > ftp 软件
+
+#### [DIVVY](http://mizage.com/divvy/)
+> 窗口控制软件，快捷
