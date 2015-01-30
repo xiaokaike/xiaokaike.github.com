@@ -118,3 +118,12 @@ tags: [ MAC ]
 
 #### [DIVVY](http://mizage.com/divvy/)
 > 窗口控制软件，快捷
+
+#### [licecap](http://www.cockos.com/licecap/)
+> 屏幕操作的录制
+
+#### [CleanMymac 2]()
+> 清理电脑
+
+### [VLC]()
+> 视频播放器
