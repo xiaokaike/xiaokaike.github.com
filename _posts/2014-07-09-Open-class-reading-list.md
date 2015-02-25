@@ -27,4 +27,10 @@ tags: [ ted, reading, openClass ]
 
 > 关于生活
 
+### [世界上的另一个我](http://open.163.com/movie/2015/2/0/K/MAHNR8LOL_MAHO4FJ0K.html)
+`心理` `生活` 
+*2015-02-26 00:10*
+
+> 找寻世界上同一天出生的人的不同生活，其实世界很大，不只是我
+
 
