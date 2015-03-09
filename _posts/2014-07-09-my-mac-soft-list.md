@@ -98,11 +98,8 @@ tags: [ MAC ]
 #### [XMind](http://www.xmind.net/)
 > 脑图
 
-#### [OmniGraffle](http://www.omnigroup.com/omnigraffle/)
-> 脑图 
-
-#### [Calendar]()
-> 日历插件 app store 下载即可
+#### [OmniGraffle](http://www.omnigroup.com/omnigraffle/) `付费`
+> 绘制流程图和各种产品设计图，mac上画图非他莫属，非常好用
 
 #### [1Password](https://agilebits.com/onepassword) `付费`
 > 密码管理
