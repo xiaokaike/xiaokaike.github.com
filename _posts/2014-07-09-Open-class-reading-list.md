@@ -34,3 +34,9 @@ tags: [ ted, reading, openClass ]
 > 找寻世界上同一天出生的人的不同生活，其实世界很大，不只是我
 
 
+### [网络设计，事关你我](http://open.163.com/movie/2015/3/J/7/MAK24LUVN_MAK2HPGJ7.html)
+`网络` `设计`
+
+> 1. audacity and humanity 2.关注重要细节 3.慎做改变 4.站在客户的角度思考
+
+
