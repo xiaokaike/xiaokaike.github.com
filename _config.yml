@@ -11,7 +11,7 @@ timezone:     Asia/Hong_Kong
 permalink:    /:title/
 # markdown:     rdiscount
 markdown:     redcarpet
-highlighter:  pygments
+rouge:  pygments
 paginate: 10
 #
 # Jekyll serve settings
