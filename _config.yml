@@ -27,8 +27,8 @@ future:       false
 
 
 # Site settings
-name: "xeme"
-title: xeme
+name: "X"
+title: X
 email: kexiaokai@gmail.com
 description: "xiaokai"
 baseurl: ""
