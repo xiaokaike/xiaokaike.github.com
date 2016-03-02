@@ -10,7 +10,7 @@ destination:  ./_site
 timezone:     Asia/Hong_Kong
 permalink:    /:title/
 # markdown:     rdiscount
-markdown:     redcarpet
+markdown:     kramdown
 rouge:  pygments
 paginate: 10
 #
