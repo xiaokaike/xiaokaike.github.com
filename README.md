@@ -15,9 +15,14 @@
 	- blog
 	- project
 	
+
+
+
 ## start
 
 ```
+gem install jekyll
+
 jekyll server start
 
 ```
